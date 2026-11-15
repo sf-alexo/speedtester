@@ -1,0 +1,15 @@
+{
+  "name": "speedtester",
+  "version": "1.0.0",
+  "description": "Консольный замер скорости скачивания по URL",
+  "type": "module",
+  "bin": {
+    "speedtester": "./speedtest.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node speedtest.js"
+  }
+}
